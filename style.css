@@ -1,0 +1,84 @@
+/*
+Theme Name: covid
+Theme URI: //coronavirus2020brasil.com
+Description: Tema para Coronavirus2020Brasil
+Author: Coronavirus2020Brasil
+Author URI: //coronavirus2020brasil.com
+*/
+
+body{
+	font-family: 'Abel', sans-serif !important;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
+
+ #splash{
+	min-width: 100%;
+	background-color: #e5eff1;
+	min-height: 100%;
+	display: block;
+	z-index: 999;
+	position: absolute;
+	text-align: center;
+	padding: 20px;
+}
+.loading{
+	max-width: 150px;
+	max-height: 150px;
+}
+html, body{
+	overflow: hidden;
+}	
+#page{
+	display: none;
+}
+.block_topo{
+	padding: 10px 0px;
+}
+.site-title{
+	color: white;
+}
+
+#footer{
+	background-color: #343a40;
+	width: 100%;
+	padding: 20px 40px;
+	text-align: center;
+	color: white;
+	font-family: 'Abel', sans-serif;
+}
+
+.block_chart{
+	margin-bottom: 30px;
+}
+
+.block_chart_0{
+	text-align: center;;
+	margin-bottom: 30px;
+}
+
+canvas {
+	margin: auto;
+	max-width: 700px; 
+	max-height: 400px
+}
+
+@media (max-width: 768px) {
+	.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	h4{
+		font-size: 14px !important;
+	}
+	h3{
+		font-size: 16px;
+	}
+	canvas {
+		margin: auto;
+		max-width: 700px; 
+		max-height: 300px
+	}
+}
